@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/DevFolio-Portfolio/static/css/main.619bab65.chunk.css",
-    "main.js": "/DevFolio-Portfolio/static/js/main.3fad840c.chunk.js",
-    "main.js.map": "/DevFolio-Portfolio/static/js/main.3fad840c.chunk.js.map",
-    "runtime-main.js": "/DevFolio-Portfolio/static/js/runtime-main.532e741c.js",
-    "runtime-main.js.map": "/DevFolio-Portfolio/static/js/runtime-main.532e741c.js.map",
-    "static/js/2.521479b2.chunk.js": "/DevFolio-Portfolio/static/js/2.521479b2.chunk.js",
-    "static/js/2.521479b2.chunk.js.map": "/DevFolio-Portfolio/static/js/2.521479b2.chunk.js.map",
+    "main.js": "/DevFolio-Portfolio/static/js/main.cde26855.chunk.js",
+    "main.js.map": "/DevFolio-Portfolio/static/js/main.cde26855.chunk.js.map",
+    "runtime-main.js": "/DevFolio-Portfolio/static/js/runtime-main.894fbf3e.js",
+    "runtime-main.js.map": "/DevFolio-Portfolio/static/js/runtime-main.894fbf3e.js.map",
+    "static/js/2.c6138d6f.chunk.js": "/DevFolio-Portfolio/static/js/2.c6138d6f.chunk.js",
+    "static/js/2.c6138d6f.chunk.js.map": "/DevFolio-Portfolio/static/js/2.c6138d6f.chunk.js.map",
     "static/css/3.df879eac.chunk.css": "/DevFolio-Portfolio/static/css/3.df879eac.chunk.css",
-    "static/js/3.5672b75d.chunk.js": "/DevFolio-Portfolio/static/js/3.5672b75d.chunk.js",
-    "static/js/3.5672b75d.chunk.js.map": "/DevFolio-Portfolio/static/js/3.5672b75d.chunk.js.map",
+    "static/js/3.4efb1ae6.chunk.js": "/DevFolio-Portfolio/static/js/3.4efb1ae6.chunk.js",
+    "static/js/3.4efb1ae6.chunk.js.map": "/DevFolio-Portfolio/static/js/3.4efb1ae6.chunk.js.map",
     "static/css/4.e91a4b36.chunk.css": "/DevFolio-Portfolio/static/css/4.e91a4b36.chunk.css",
-    "static/js/4.d9bdbd92.chunk.js": "/DevFolio-Portfolio/static/js/4.d9bdbd92.chunk.js",
-    "static/js/4.d9bdbd92.chunk.js.map": "/DevFolio-Portfolio/static/js/4.d9bdbd92.chunk.js.map",
+    "static/js/4.251b27a3.chunk.js": "/DevFolio-Portfolio/static/js/4.251b27a3.chunk.js",
+    "static/js/4.251b27a3.chunk.js.map": "/DevFolio-Portfolio/static/js/4.251b27a3.chunk.js.map",
     "index.html": "/DevFolio-Portfolio/index.html",
-    "precache-manifest.3ce2eb38837285b2e87db4462d397814.js": "/DevFolio-Portfolio/precache-manifest.3ce2eb38837285b2e87db4462d397814.js",
+    "precache-manifest.5432edb8df7d10f504a437fda5f71f86.js": "/DevFolio-Portfolio/precache-manifest.5432edb8df7d10f504a437fda5f71f86.js",
     "service-worker.js": "/DevFolio-Portfolio/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/DevFolio-Portfolio/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/DevFolio-Portfolio/static/css/4.e91a4b36.chunk.css.map",
     "static/css/main.619bab65.chunk.css.map": "/DevFolio-Portfolio/static/css/main.619bab65.chunk.css.map",
-    "static/js/2.521479b2.chunk.js.LICENSE.txt": "/DevFolio-Portfolio/static/js/2.521479b2.chunk.js.LICENSE.txt",
+    "static/js/2.c6138d6f.chunk.js.LICENSE.txt": "/DevFolio-Portfolio/static/js/2.c6138d6f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/DevFolio-Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/avatar.jpeg": "/DevFolio-Portfolio/static/media/avatar.e429341c.jpeg",
     "static/media/codeInLogo.webp": "/DevFolio-Portfolio/static/media/codeInLogo.47a7a717.webp",
     "static/media/contactMailDark.svg": "/DevFolio-Portfolio/static/media/contactMailDark.51cf7192.svg",
     "static/media/developerActivity.svg": "/DevFolio-Portfolio/static/media/developerActivity.59389695.svg",
@@ -35,9 +36,9 @@
     "static/media/zs-associates.svg": "/DevFolio-Portfolio/static/media/zs-associates.c1b3c5b9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.532e741c.js",
-    "static/js/2.521479b2.chunk.js",
+    "static/js/runtime-main.894fbf3e.js",
+    "static/js/2.c6138d6f.chunk.js",
     "static/css/main.619bab65.chunk.css",
-    "static/js/main.3fad840c.chunk.js"
+    "static/js/main.cde26855.chunk.js"
   ]
 }
