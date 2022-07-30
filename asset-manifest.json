@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/DevFolio-Porgitfolio/static/css/main.438de11b.chunk.css",
+    "main.js": "/DevFolio-Porgitfolio/static/js/main.1d05d37e.chunk.js",
+    "main.js.map": "/DevFolio-Porgitfolio/static/js/main.1d05d37e.chunk.js.map",
+    "runtime-main.js": "/DevFolio-Porgitfolio/static/js/runtime-main.8cab2218.js",
+    "runtime-main.js.map": "/DevFolio-Porgitfolio/static/js/runtime-main.8cab2218.js.map",
+    "static/js/2.521479b2.chunk.js": "/DevFolio-Porgitfolio/static/js/2.521479b2.chunk.js",
+    "static/js/2.521479b2.chunk.js.map": "/DevFolio-Porgitfolio/static/js/2.521479b2.chunk.js.map",
+    "static/css/3.df879eac.chunk.css": "/DevFolio-Porgitfolio/static/css/3.df879eac.chunk.css",
+    "static/js/3.5672b75d.chunk.js": "/DevFolio-Porgitfolio/static/js/3.5672b75d.chunk.js",
+    "static/js/3.5672b75d.chunk.js.map": "/DevFolio-Porgitfolio/static/js/3.5672b75d.chunk.js.map",
+    "static/css/4.e91a4b36.chunk.css": "/DevFolio-Porgitfolio/static/css/4.e91a4b36.chunk.css",
+    "static/js/4.d9bdbd92.chunk.js": "/DevFolio-Porgitfolio/static/js/4.d9bdbd92.chunk.js",
+    "static/js/4.d9bdbd92.chunk.js.map": "/DevFolio-Porgitfolio/static/js/4.d9bdbd92.chunk.js.map",
+    "index.html": "/DevFolio-Porgitfolio/index.html",
+    "precache-manifest.3a4bb8435c4293a8954a4602cff2c4ee.js": "/DevFolio-Porgitfolio/precache-manifest.3a4bb8435c4293a8954a4602cff2c4ee.js",
+    "service-worker.js": "/DevFolio-Porgitfolio/service-worker.js",
+    "static/css/3.df879eac.chunk.css.map": "/DevFolio-Porgitfolio/static/css/3.df879eac.chunk.css.map",
+    "static/css/4.e91a4b36.chunk.css.map": "/DevFolio-Porgitfolio/static/css/4.e91a4b36.chunk.css.map",
+    "static/css/main.438de11b.chunk.css.map": "/DevFolio-Porgitfolio/static/css/main.438de11b.chunk.css.map",
+    "static/js/2.521479b2.chunk.js.LICENSE.txt": "/DevFolio-Porgitfolio/static/js/2.521479b2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/DevFolio-Porgitfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/codeInLogo.webp": "/DevFolio-Porgitfolio/static/media/codeInLogo.47a7a717.webp",
+    "static/media/contactMailDark.svg": "/DevFolio-Porgitfolio/static/media/contactMailDark.51cf7192.svg",
+    "static/media/developerActivity.svg": "/DevFolio-Porgitfolio/static/media/developerActivity.59389695.svg",
+    "static/media/googleAssistantLogo.webp": "/DevFolio-Porgitfolio/static/media/googleAssistantLogo.e79c6392.webp",
+    "static/media/hackveda.png": "/DevFolio-Porgitfolio/static/media/hackveda.7d084609.png",
+    "static/media/manOnTable.svg": "/DevFolio-Porgitfolio/static/media/manOnTable.52be3144.svg",
+    "static/media/nextuLogo.webp": "/DevFolio-Porgitfolio/static/media/nextuLogo.829ad0a1.webp",
+    "static/media/pwaLogo.webp": "/DevFolio-Porgitfolio/static/media/pwaLogo.ee62cb58.webp",
+    "static/media/saayaHealthLogo.webp": "/DevFolio-Porgitfolio/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/skill.svg": "/DevFolio-Porgitfolio/static/media/skill.34409398.svg",
+    "static/media/TalkCard.scss": "/DevFolio-Porgitfolio/static/media/talksCardBack.13780cdd.svg",
+    "static/media/zs-associates.svg": "/DevFolio-Porgitfolio/static/media/zs-associates.c1b3c5b9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cab2218.js",
+    "static/js/2.521479b2.chunk.js",
+    "static/css/main.438de11b.chunk.css",
+    "static/js/main.1d05d37e.chunk.js"
+  ]
+}
