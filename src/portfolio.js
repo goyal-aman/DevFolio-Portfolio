@@ -23,8 +23,8 @@ const greeting = {
   username: "Aman Goyal",
   title: "Hi all, I'm Aman",
   subTitle: emoji(
-    "I can Lead, Develop and Design. I have experience developing products and services that have had positive impact on lives of thousands" 
-     ),
+    "I can Lead, Develop and Design. I have experience developing products and services that have had positive impact on lives of thousands"
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1TevQ8wOUuTw57bm7dJj2xee7S3HjsOcf/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -33,12 +33,12 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  leetcode : "https://www.leetcode.com/sichern",
+  leetcode: "https://www.leetcode.com/sichern",
   github: "https://github.com/goyal-aman",
   linkedin: "https://www.linkedin.com/in/ln-amangoyal/",
-  twitter:"https://twitter.com/_goyalaman",
+  twitter: "https://twitter.com/_goyalaman",
   gmail: "amangoyal8110@gmail.com",
-  
+
   // medium: "https://medium.com/@saadpasta",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
@@ -123,7 +123,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
-    },    
+    },
     {
       skillName: "Spring",
       // <font-awesome-icon icon="¸" />
@@ -134,7 +134,7 @@ https://fontawesome.com/icons?d=gallery */
       // <font-awesome-icon icon="¸" />
       fontAwesomeClassname: "fab fa-git"
     },
-    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -225,6 +225,110 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  Projects: [
+    {
+      "node": {
+        "name": "Aman Goyal",
+        "description": "🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.",
+        "forkCount": 1429,
+        "stargazers": {
+          "totalCount": 3256
+        },
+        "url": "https://github.com/saadpasta/developerFolio",
+        "id": "MDEwOlJlcG9zaXRvcnkyMTgyODI0NTM=",
+        "diskUsage": 23358,
+        "primaryLanguage": {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        }
+      }
+    },
+    {
+      "node": {
+        "name": "react-blog-github",
+        "description": "🔥 React + Github Issues    👉 Your Personal Blog ",
+        "forkCount": 130,
+        "stargazers": {
+          "totalCount": 732
+        },
+        "url": "https://github.com/saadpasta/react-blog-github",
+        "id": "MDEwOlJlcG9zaXRvcnkyMzUwNTIwMDE=",
+        "diskUsage": 18787,
+        "primaryLanguage": {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        }
+      }
+    },
+    {
+      "node": {
+        "name": "awesome-web-components",
+        "description": "🤖 Awesome web components and snippets for every Front-End Developer",
+        "forkCount": 24,
+        "stargazers": {
+          "totalCount": 44
+        },
+        "url": "https://github.com/saadpasta/awesome-web-components",
+        "id": "MDEwOlJlcG9zaXRvcnkyMTU1NDg3ODY=",
+        "diskUsage": 2139,
+        "primaryLanguage": {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        }
+      }
+    },
+    {
+      "node": {
+        "name": "Grocery-Items-Detection",
+        "description": "🎉 Grocery Items Detection using Tenserflow.js and IBM Watson.📸",
+        "forkCount": 8,
+        "stargazers": {
+          "totalCount": 32
+        },
+        "url": "https://github.com/saadpasta/Grocery-Items-Detection",
+        "id": "MDEwOlJlcG9zaXRvcnkxOTMwMzQ1ODI=",
+        "diskUsage": 26200,
+        "primaryLanguage": {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        }
+      }
+    },
+    {
+      "node": {
+        "name": "PWA-Olx-Clone",
+        "description": "Olx Clone Progressive Web App with Offline Feature, Messaging and Add to Favorite",
+        "forkCount": 13,
+        "stargazers": {
+          "totalCount": 17
+        },
+        "url": "https://github.com/saadpasta/PWA-Olx-Clone",
+        "id": "MDEwOlJlcG9zaXRvcnkxNDczNzg5MzY=",
+        "diskUsage": 3165,
+        "primaryLanguage": {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        }
+      }
+    },
+    {
+      "node": {
+        "name": "Locate-Me",
+        "description": "📍A React Native live location application to find your loved one's",
+        "forkCount": 5,
+        "stargazers": {
+          "totalCount": 6
+        },
+        "url": "https://github.com/saadpasta/Locate-Me",
+        "id": "MDEwOlJlcG9zaXRvcnkxNzM1NjA0MzQ=",
+        "diskUsage": 32945,
+        "primaryLanguage": {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        }
+      }
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -258,7 +362,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -308,7 +412,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -316,7 +420,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -325,7 +429,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -359,7 +463,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -372,22 +476,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  // number: "+92-0000000000",
+  email_address: "amangoyal8110@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {

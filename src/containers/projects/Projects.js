@@ -15,38 +15,16 @@ export default function Projects() {
   const {isDark} = useContext(StyleContext);
 
   useEffect(() => {
-    const getRepoData = () => {
-      fetch("/profile.json")
-        .then(result => {
-          if (result.ok) {
-            return result.json();
-          }
-          throw result;
-        })
-        .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
-        })
-        .catch(function (error) {
-          console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
-          );
-          setrepoFunction("Error");
-        });
-    };
-    getRepoData();
+      setrepoFunction(openSource.Projects);
   }, []);
-
   function setrepoFunction(array) {
     setrepo(array);
   }
-  if (
-    !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
-  ) {
+  if (openSource.display) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h1 className="project-title">Open Source Projects</h1>
+          <h1 className="project-title">Projects</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
