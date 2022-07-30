@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Aman Goyal 2",
-  title: "Hi all, I'm Aman",
+  username: "Aman Goyal",
+  title: "Hi all, I'm Aman HELLLLLOOOOS",
   subTitle: emoji(
     "I can Lead, Develop and Design. I have experience developing products and services that have had positive impact on lives of thousands"
   ),
