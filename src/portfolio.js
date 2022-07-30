@@ -54,14 +54,16 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "LAZY ENGINEER, ASPIRE TO MAKE AN IMPACT",
+
+  // TODO: add some skills
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+  //   emoji(
+  //     "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+  //   ),
+  //   emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+  //   emoji(
+  //     "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+  //   )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -197,10 +199,10 @@ const workExperiences = {
       company: "MakeMyTrip",
       companylogo: require("./assets/images/makemytrip-seeklogo.jpg"),
       date: "July 2012 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Part of Cars & Activities team. Creating and improving already existing codebase as per growing demand and new use cases",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+         "Using Spring to boost and develop the backend.",
+         "Improving runtime and accuracy of backend systems.",
       ]
     },
     {
@@ -208,14 +210,26 @@ const workExperiences = {
       company: "ZS Associates",
       companylogo: require("./assets/images/zs-associates.svg"),
       date: "November 2021 – July 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Part of Incentive Compensation Implementation Team, developed and designed state of the art reports for groud zero team",
+      descBullets:[
+"        Increased productivity by 20% by introducing various tools and skills.",
+"        Led development phase during implementation of technology solutions.",
+"        Reduced manual work by 40% by creating automation scripts.",
+"        Introduced new guidelines and methods for efficient and quality output."
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Hackveda",
       companylogo: require("./assets/images/hackveda.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Part of backend development team. Developed highly extensible and readable modules in Python",
+      descBullets:[
+"Increased productivity by 20% by introducing various tools and skills.",
+"Led development phase during implementation of technology solutions.",
+"Reduced manual work by 40% by creating automation scripts.",
+"Introduced new guidelines and methods for efficient and quality output.",
+      ]
     }
   ]
 };
@@ -225,108 +239,89 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  // data: { "data": { "user": { "name": "Saad Pasta", "bio": "20 | First Pakistani Google Code-In Finalist  | Software Engineer @SadaPay | Still Finding 💭  ", "isHireable": true, "avatarUrl": "https://avatars.githubusercontent.com/u/23307811?u=eab46b153eef3f5183930e61898b462447af9219&v=4", "location": "Karachi , Pakistan", "pinnedItems": { "totalCount": 6, "edges": [{ "node": { "name": "developerFolio", "description": "🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.", "forkCount": 1429, "stargazers": { "totalCount": 3256 }, "url": "https://github.com/saadpasta/developerFolio", "id": "MDEwOlJlcG9zaXRvcnkyMTgyODI0NTM=", "diskUsage": 23358, "primaryLanguage": { "name": "JavaScript", "color": "#f1e05a" } } }, { "node": { "name": "react-blog-github", "description": "🔥 React + Github Issues    👉 Your Personal Blog ", "forkCount": 130, "stargazers": { "totalCount": 732 }, "url": "https://github.com/saadpasta/react-blog-github", "id": "MDEwOlJlcG9zaXRvcnkyMzUwNTIwMDE=", "diskUsage": 18787, "primaryLanguage": { "name": "JavaScript", "color": "#f1e05a" } } }, { "node": { "name": "awesome-web-components", "description": "🤖 Awesome web components and snippets for every Front-End Developer", "forkCount": 24, "stargazers": { "totalCount": 44 }, "url": "https://github.com/saadpasta/awesome-web-components", "id": "MDEwOlJlcG9zaXRvcnkyMTU1NDg3ODY=", "diskUsage": 2139, "primaryLanguage": { "name": "JavaScript", "color": "#f1e05a" } } }, { "node": { "name": "Grocery-Items-Detection", "description": "🎉 Grocery Items Detection using Tenserflow.js and IBM Watson.📸", "forkCount": 8, "stargazers": { "totalCount": 32 }, "url": "https://github.com/saadpasta/Grocery-Items-Detection", "id": "MDEwOlJlcG9zaXRvcnkxOTMwMzQ1ODI=", "diskUsage": 26200, "primaryLanguage": { "name": "JavaScript", "color": "#f1e05a" } } }, { "node": { "name": "PWA-Olx-Clone", "description": "Olx Clone Progressive Web App with Offline Feature, Messaging and Add to Favorite", "forkCount": 13, "stargazers": { "totalCount": 17 }, "url": "https://github.com/saadpasta/PWA-Olx-Clone", "id": "MDEwOlJlcG9zaXRvcnkxNDczNzg5MzY=", "diskUsage": 3165, "primaryLanguage": { "name": "JavaScript", "color": "#f1e05a" } } }, { "node": { "name": "Locate-Me", "description": "📍A React Native live location application to find your loved one's", "forkCount": 5, "stargazers": { "totalCount": 6 }, "url": "https://github.com/saadpasta/Locate-Me", "id": "MDEwOlJlcG9zaXRvcnkxNzM1NjA0MzQ=", "diskUsage": 32945, "primaryLanguage": { "name": "JavaScript", "color": "#f1e05a" } } }] } } } },
+  user: {
+    "name": "Aman Goyal",
+    "bio": "",
+    "isHireable": true,
+    "avatarUrl": require("./assets/images/avatar.jpeg"),
+    "location": "Delhi, India",
+    "email":"amangoyal8110@gmail.com"
+  },
   Projects: [
     {
       "node": {
-        "name": "Aman Goyal",
-        "description": "🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.",
-        "forkCount": 1429,
+        "name": "Blogging Web Application",
+        "description": "🚀 Build an end to end platform for users to interact and indulge in meaningful conversation with each others.",
+        // "forkCount": 1429,
         "stargazers": {
-          "totalCount": 3256
+          // "totalCount": 3256
         },
-        "url": "https://github.com/saadpasta/developerFolio",
-        "id": "MDEwOlJlcG9zaXRvcnkyMTgyODI0NTM=",
+        "url": "https://github.com/goyal-aman/Django-Blogger",
+        // "id": "MDEwOlJlcG9zaXRvcnkyMTgyODI0NTM=",
         "diskUsage": 23358,
         "primaryLanguage": {
-          "name": "JavaScript",
+          "name": "Python, Django, Heroku, Gunicorn, Html, CSS  ",
+          // "name": "JavaScript",
           "color": "#f1e05a"
         }
-      }
+      }      
     },
     {
       "node": {
-        "name": "react-blog-github",
-        "description": "🔥 React + Github Issues    👉 Your Personal Blog ",
-        "forkCount": 130,
+        "name": "WhiteBoard",
+        "description": "🚀 Developed White Board windows application using JS, CSS, Electron and html. Features included are ‐ adjustable pen size, color.",
+        // "forkCount": 1429,
         "stargazers": {
-          "totalCount": 732
+          // "totalCount": 3256
         },
-        "url": "https://github.com/saadpasta/react-blog-github",
-        "id": "MDEwOlJlcG9zaXRvcnkyMzUwNTIwMDE=",
-        "diskUsage": 18787,
+        "url": "https://github.com/goyal-aman/WhiteBoard",
+        // "id": "MDEwOlJlcG9zaXRvcnkyMTgyODI0NTM=",
+        // "diskUsage": 23358,
         "primaryLanguage": {
-          "name": "JavaScript",
+          "name": "Node.js, JavaScript, Electron, Html, CSS",
+          // "name": "JavaScript",
           "color": "#f1e05a"
         }
-      }
+      },
+
     },
     {
       "node": {
-        "name": "awesome-web-components",
-        "description": "🤖 Awesome web components and snippets for every Front-End Developer",
-        "forkCount": 24,
+        "name": "Bank API",
+        "description": "🚀Developed public blank Api to fetch bank details in such as locations and IFSC code in nation using Name or find branch details using IFSC code.",
+        // "forkCount": 1429,
         "stargazers": {
-          "totalCount": 44
+          // "totalCount": 3256
         },
-        "url": "https://github.com/saadpasta/awesome-web-components",
-        "id": "MDEwOlJlcG9zaXRvcnkyMTU1NDg3ODY=",
-        "diskUsage": 2139,
+        "url": "https://github.com/goyal-aman/Bank-Rest-Api",
+        // "id": "MDEwOlJlcG9zaXRvcnkyMTgyODI0NTM=",
+        // "diskUsage": 23358,
         "primaryLanguage": {
-          "name": "JavaScript",
+          "name": "Django Rest Framework, Python, Django",
+          // "name": "JavaScript",
           "color": "#f1e05a"
         }
-      }
+      },
+
     },
     {
       "node": {
-        "name": "Grocery-Items-Detection",
-        "description": "🎉 Grocery Items Detection using Tenserflow.js and IBM Watson.📸",
-        "forkCount": 8,
+        "name": "Timeline",
+        "description": "🚀Created product to keep track of my minor and major professional achievements. It helps fight imposter syndrome.",
+        // "forkCount": 1429,
         "stargazers": {
-          "totalCount": 32
+          // "totalCount": 3256
         },
-        "url": "https://github.com/saadpasta/Grocery-Items-Detection",
-        "id": "MDEwOlJlcG9zaXRvcnkxOTMwMzQ1ODI=",
-        "diskUsage": 26200,
+        "url": "https://github.com/goyal-aman/portfolio",
+        // "id": "MDEwOlJlcG9zaXRvcnkyMTgyODI0NTM=",
+        // "diskUsage": 23358,
         "primaryLanguage": {
-          "name": "JavaScript",
+          "name": "Python, Django, Html, CSS, Heroku",
+          // "name": "JavaScript",
           "color": "#f1e05a"
         }
-      }
-    },
-    {
-      "node": {
-        "name": "PWA-Olx-Clone",
-        "description": "Olx Clone Progressive Web App with Offline Feature, Messaging and Add to Favorite",
-        "forkCount": 13,
-        "stargazers": {
-          "totalCount": 17
-        },
-        "url": "https://github.com/saadpasta/PWA-Olx-Clone",
-        "id": "MDEwOlJlcG9zaXRvcnkxNDczNzg5MzY=",
-        "diskUsage": 3165,
-        "primaryLanguage": {
-          "name": "JavaScript",
-          "color": "#f1e05a"
-        }
-      }
-    },
-    {
-      "node": {
-        "name": "Locate-Me",
-        "description": "📍A React Native live location application to find your loved one's",
-        "forkCount": 5,
-        "stargazers": {
-          "totalCount": 6
-        },
-        "url": "https://github.com/saadpasta/Locate-Me",
-        "id": "MDEwOlJlcG9zaXRvcnkxNzM1NjA0MzQ=",
-        "diskUsage": 32945,
-        "primaryLanguage": {
-          "name": "JavaScript",
-          "color": "#f1e05a"
-        }
-      }
+      },
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -444,7 +439,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -482,7 +477,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? My Inbox is open for all",
   // number: "+92-0000000000",
   email_address: "amangoyal8110@gmail.com"
 };
