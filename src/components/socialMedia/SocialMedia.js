@@ -8,6 +8,18 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
+      {socialMediaLinks.leetcode ? (
+        <a
+          href={socialMediaLinks.leetcode}
+          className="icon-button leetcode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-code"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}
