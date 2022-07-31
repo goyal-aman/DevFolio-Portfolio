@@ -1,5 +1,5 @@
 {
-  "homepage": "https://goyal-aman.github.io/DevFolio-Portfolio",
+  "homepage": "https://www.amangoyal.ml/",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -51,7 +51,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^16.0.1",
     "prettier": "^2.3.1"
   }
 }
