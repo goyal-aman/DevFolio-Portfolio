@@ -222,7 +222,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "Hackveda",
       companylogo: require("./assets/images/hackveda.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "May 2020 – Nov 2020",
       desc: "Part of backend development team. Developed highly extensible and readable modules in Python",
       descBullets:[
 "Increased productivity by 20% by introducing various tools and skills.",
