@@ -225,10 +225,12 @@ const workExperiences = {
       date: "May 2020 – Nov 2020",
       desc: "Part of backend development team. Developed highly extensible and readable modules in Python",
       descBullets:[
-"Increased productivity by 20% by introducing various tools and skills.",
-"Led development phase during implementation of technology solutions.",
-"Reduced manual work by 40% by creating automation scripts.",
-"Introduced new guidelines and methods for efficient and quality output.",
+        "Improved performance by 35% through efficient and reliable API’s.",
+        "Conceptualized and implemented various tools and Api’s.",
+        "Overhauled various API’s to improve uptime by 20%.",
+        "Reduced resource utilization by 50% through efficient database models.",
+        "Authored Scripts to reduce errors by 70%.",
+        "Volunteered to identify and improve outdated code base."
       ]
     }
   ]
