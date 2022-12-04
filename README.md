@@ -1,5 +1,8 @@
 # WorkFlow
 
+- create branch for changes
+- commit and raise PR, merge PR on main
+- pull latest changes on main
 - npm run deploy (to deploy to gh-pages)
 - git push origin <branch>
 
