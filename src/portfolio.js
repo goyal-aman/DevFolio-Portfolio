@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Aman Goyal",
-  title: "Hi all, I'm Aman",
+  title: "Hi, I'm Aman",
   subTitle: emoji(
     "I can Lead, Develop and Design. I have experience developing products and services that have had positive impact on lives of thousands"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1TevQ8wOUuTw57bm7dJj2xee7S3HjsOcf/view", // Set to empty to hide the button
+    "https://bit.ly/aman-goyal-resume", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -201,8 +201,11 @@ const workExperiences = {
       date: "July 2012 – Present",
       desc: "Part of Cars & Activities team. Creating and improving already existing codebase as per growing demand and new use cases",
       descBullets: [
-         "Using Spring to boost and develop the backend.",
-         "Improving runtime and accuracy of backend systems.",
+        "Reduced resource utilization by 50% through efficient database models.",
+        "Overhauled various API’s to improve uptime by 20%.",
+        "Using Spring to boost and develop the backend.",
+        "Improving runtime and accuracy of backend systems.",
+        "Volunteered to identify and improve outdated code base.",
       ]
     },
     {
@@ -225,12 +228,9 @@ const workExperiences = {
       date: "May 2020 – Nov 2020",
       desc: "Part of backend development team. Developed highly extensible and readable modules in Python",
       descBullets:[
-        "Improved performance by 35% through efficient and reliable API’s.",
+        "Improved performance by 35% through efficient and reliable API’s.\n",
         "Conceptualized and implemented various tools and Api’s.",
-        "Overhauled various API’s to improve uptime by 20%.",
-        "Reduced resource utilization by 50% through efficient database models.",
-        "Authored Scripts to reduce errors by 70%.",
-        "Volunteered to identify and improve outdated code base."
+      "Authored Scripts to reduce errors by 70%."
       ]
     }
   ]
