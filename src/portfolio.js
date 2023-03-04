@@ -198,7 +198,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "MakeMyTrip",
       companylogo: require("./assets/images/makemytrip-seeklogo.jpg"),
-      date: "July 2012 – Present",
+      date: "July 2022 – Present",
       desc: "Part of Cars & Activities team. Creating and improving already existing codebase as per growing demand and new use cases",
       descBullets: [
         "Reduced resource utilization by 50% through efficient database models.",
