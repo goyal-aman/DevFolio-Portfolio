@@ -4,6 +4,7 @@
 - commit and raise PR, merge PR on main
 - pull latest changes on main
 - nvm install 16.13.0 // change to this lst version
+- change version in package.json
 - npm run deploy (to deploy to gh-pages), for some reason this only works in gitpod
 - git push origin <branch>
 
