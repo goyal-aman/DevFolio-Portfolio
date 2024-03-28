@@ -1,7 +1,7 @@
 {
-  "homepage": "https://goyal-aman.github.io/DevFolio-Portfolio/",
+  "homepage": "https://goyal-aman.github.io/",
   "name": "developerfolio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",

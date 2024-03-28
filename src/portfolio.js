@@ -26,7 +26,7 @@ const greeting = {
     "I can Lead, Develop and Design. I have experience developing products and services that have had positive impact on lives of thousands"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1UIJfRRzyPJaQmFwZpbLIK1KsIw_4q3U7/view", // Set to empty to hide the button // change resume link here
+    "https://drive.google.com/file/d/1tkJL1e-iq8R_0w27EijgEqF5QRvC16B3/view", // Set to empty to hide the button // change resume link here
     // "https://www.google.com", // Set to empty to hide the button // change resume link here
   displayGreeting: true // Set false to hide this section, defaults to true
 };
